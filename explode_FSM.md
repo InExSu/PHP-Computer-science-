@@ -1,6 +1,8 @@
 ```mermaid
 stateDiagram-v2
 
+% Если глючит в PHPStorm - добавь что нибудь незначащее.
+
 s1: s1 explode(string $separator, string $string, int $limit = PHP_INT_MAX)
 s2: s2 разбиение строки string,  <br/> используя separator разделителем
 s3: s3 положительный
