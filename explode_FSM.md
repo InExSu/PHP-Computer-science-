@@ -1,6 +1,8 @@
 ```mermaid
 stateDiagram-v2
 
+%direction LR
+
 % Если глючит в PHPStorm - добавь что нибудь незначащее.
 
 s1: s1 explode(string $separator, string $string, int $limit = PHP_INT_MAX)
@@ -52,6 +54,3 @@ s4 --> s99
 s6 --> s99
 s94 --> s99
 s99 --> s100
-
-
-
